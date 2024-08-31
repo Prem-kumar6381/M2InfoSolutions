@@ -316,8 +316,9 @@
         position: relative;
         z-index: 1;
         width: 53%;
-        left: 222px;
-        bottom: 110px;
+        left: 203px;
+        bottom: 60px;
+        border-radius: 5px;
     }
     
     .dotimg1{
@@ -345,7 +346,7 @@
     .servicepara1{
         font-size: 18px;
         margin-top: 11px;
-        text-align: center;
+        text-align: justify;
     }
     .servicepara2{
         font-size: 18px;
@@ -363,11 +364,12 @@
     .serviceline1{
         display: flex;
         margin-top: 46px;
+        flex-direction: column;
     
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -391,6 +393,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -408,11 +411,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -521,6 +524,35 @@
         height:100%;
         border-radius: 25px;
     }
+    /* location*/
+    .map-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-top:30px;
+        width: 100%;
+        
+    }
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    .locationhead{
+        width: 100%;
+        margin-top: 97px;
+        text-align: center;
+    }
+    .ourlocationhead{
+        font-size: 41px;
+        font-weight: 700;
+        margin-left: 79px;
+    }
+    
     /* footer */
     body{
         line-height: 1.5;
@@ -590,6 +622,9 @@
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
@@ -969,8 +1004,9 @@
         position: relative;
         z-index: 1;
         width: 53%;
-        left: 222px;
-        bottom: 110px;
+        left: 183px;
+        bottom: 60px;
+        border-radius: 5p
     }
     
     .dotimg1{
@@ -998,6 +1034,7 @@
     .servicepara1{
         font-size: 18px;
         margin-top: 11px;
+        text-align: justify;
     }
     .servicepara2{
         font-size: 18px;
@@ -1015,11 +1052,13 @@
     .serviceline1{
         display: flex;
         margin-top: 46px;
+        flex-direction: column;
     
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
+        
     }
     hr{
         width: 70%;
@@ -1043,6 +1082,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -1060,11 +1100,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -1173,6 +1213,34 @@
         height:100%;
         border-radius: 25px;
     }
+    /*location*/
+    .map-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-top:30px;
+        width: 100%;
+        
+    }
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    .locationhead{
+        width: 100%;
+        margin-top: 97px;
+        text-align: center;
+    }
+    .ourlocationhead{
+        font-size: 41px;
+        font-weight: 700;
+        margin-top: 27px;
+    }
     /* footer */
     body{
         line-height: 1.5;
@@ -1242,6 +1310,9 @@
         text-align: center;
         display: flex;
         justify-content: center;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
@@ -1621,8 +1692,9 @@
         position: relative;
         z-index: 1;
         width: 53%;
-        left: 222px;
-        bottom: 110px;
+        left: 173px;
+        bottom: 59px;
+        border-radius: 5px;
     }
     
     .dotimg1{
@@ -1650,6 +1722,7 @@
     .servicepara1{
         font-size: 18px;
         margin-top: 11px;
+        text-align: justify;
     }
     .servicepara2{
         font-size: 18px;
@@ -1667,11 +1740,12 @@
     .serviceline1{
         display: flex;
         margin-top: 46px;
+        flex-direction: column;
     
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -1695,6 +1769,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -1712,11 +1787,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -1825,6 +1900,33 @@
         height:100%;
         border-radius: 25px;
     }
+    .map-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-top:30px;
+        width: 100%;
+        
+    }
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    .locationhead{
+        width: 100%;
+        margin-top: 97px;
+        text-align: center;
+    }
+    .ourlocationhead{
+        font-size: 41px;
+        font-weight: 700;
+        margin-top: 27px;
+    }
     /* footer */
     body{
         line-height: 1.5;
@@ -1895,6 +1997,9 @@
         display: flex;
         justify-content: center;
     }
+    .mobileno span{
+        margin-right: 10px;
+    }
     /* snow */
     body {
         margin: 0;
@@ -1956,7 +2061,695 @@
     }
     
 }
-@media screen and (max-width: 999px) and (min-width:550px) {
+
+@media screen and (max-width: 999px) and (min-width:769px) {
+    
+    body{
+        width: 100%;
+    }
+    
+    .maincontainer{
+            width: 100%;
+        }
+    .videocont{
+            width: 100%;
+        }
+    .totalheadercont {
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 1001;
+    }
+    .logocontainer{
+        width: 290px;
+        height: 80px;
+    }
+    .logoimg{
+        width: 100%;
+        height: 70%;
+        margin-top: 16px;
+    }
+    .secondcol {
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+    .navlist{
+        display: none;
+        cursor: pointer;
+    }
+    .menuicon {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .dropdownmenu{
+        line-height: 3;
+    }
+    .dropdownmenu li{
+        list-style: none;
+    }
+    .dropdownitem{
+        font-size: 23px;
+        text-decoration: none;
+        color: #106cb8;
+        font-weight: 700;
+    }
+    .column2 {
+        margin-top: 10px;
+    }
+    
+    .homelink, .servicelink, .aboutuslink, .contactslink {
+        color: #000000;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 7px;
+        text-decoration: none; 
+    }
+    .homelink:hover{
+        color: #1773c9;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 7px;
+        text-decoration:underline; 
+    }
+    .servicelink:hover{
+        color: #1773c9;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 7px;
+        text-decoration:underline; 
+    }
+    .aboutuslink:hover{
+        color: #1773c9;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 7px;
+        text-decoration:underline; 
+    }
+    .contactslink:hover{
+        color: #1773c9;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 7px;
+        text-decoration:underline; 
+    }
+    
+    .videocontainer {
+        position: relative;
+        width: 100%;
+        height: 70vh; 
+        overflow: hidden;
+    }
+    
+    .wallpapervideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        position: absolute; 
+        top: 0;
+        left: 0;
+    }
+    .overlaytextcont{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .overlaytext {
+        position: absolute;
+        width: 70%;
+        margin-top: -460px;
+        color: white; 
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .overlaytext1{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    .overlaytext2{
+        font-size: 16px;;
+    }
+    .contactbtn {
+        margin-top: -138px;
+        width: 226px;
+        height: 60px;
+        border-radius: 42px;
+        z-index: 1;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .contactbtntext{
+        padding: 15px;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    .contactbtn a{
+        color: black;
+        text-decoration: none;
+    }
+    .contactbtn a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    .contactbtn:hover {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%); /* Center horizontally */
+        width: 226px;
+        height: 60px;
+        border-radius: 42px;
+        z-index: 1; 
+        background-color: rgb(80, 79, 79);
+        
+        font-weight: 700;
+    }
+    .whychoosecont{
+        margin-top: 40px;
+    }
+    .whychoose1{
+        display: flex;
+        justify-content: center;
+    }
+    .whychoose2{
+        display: flex;
+        justify-content: center;
+    }
+    .whychooseushead1{
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 27px;
+    }
+    .whychooseushead2{
+        font-size: 18px;
+        width: 70%;
+        margin-top: 27px;
+        text-align: center;
+    }
+    .card1cont{
+        margin-top: 7px;
+    }
+    .cardtitle1{
+        font-size: 54px;
+        font-weight: 700;
+        display: flex;
+        text-align: center;
+    }
+    .cardtext1{
+        font-size: 19px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .card1{
+        border-radius: 45px;
+        background-color: #D0E4F4;
+        width: 92%;
+        height: 250px;
+    }
+    .card2{
+        border-radius: 45px;
+        background-color: #D0E4F4;
+        width: 92%;
+        height: 250px;
+    }
+    .card3{
+        border-radius: 45px;
+        background-color: #D0E4F4;
+        width: 92%;
+        height: 250px;
+    }
+    .userimg{
+        width: 100px;
+        height: 69px;
+        margin-top: 32px;
+    }
+    .cardbodyimg{
+       display: flex;
+       justify-content: center;
+       width: "100%";
+       margin: 15px;
+       margin-top: 10px;
+    }
+    .cardbody1{
+        display: flex;
+        justify-content: center;
+        
+     }
+     .cardbody2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
+    .userimg2{
+        width: 88px;
+        height: 67px;
+        margin-top: 32px;
+    }
+    .cardbodyimg2{
+       display: flex;
+       justify-content: center;
+       width: "100%";
+       margin: 15px;
+    }
+    .cardbody1b{
+        display: flex;
+        justify-content: center;
+     }
+     .cardbody2b{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
+     .userimg3{
+        width: 88px;
+        height: 67px;
+        margin-top: 32px;
+    }
+    .cardbodyimg3{
+       display: flex;
+       justify-content: center;
+       width: "100%";
+       margin: 15px;
+    }
+    .cardbody1c{
+        display: flex;
+        justify-content: center;
+     }
+     .cardbody2c{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
+     .cardcolumn1{
+        display: flex;
+        justify-content: center;
+     }
+     .cardcolumn2{
+        display: flex;
+        justify-content: center;
+     } 
+     .cardcolumn3{
+        display: flex;
+        justify-content: center;
+     }
+     .servicecontainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+     }
+     
+    .serviceshead{
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+    .serviceimgcont {
+        position: relative;
+        width: 100%; 
+        margin: auto; 
+      }
+      .rectangluralimg1 {
+       display: none;
+    }
+    
+    .dotimg1{
+     display: none;
+      }
+      
+    .serviceimgcont{
+        height: 100%;
+    }
+    .serviceimg{
+        object-fit: cover;
+        width: 100%;
+        height: 481px;
+        border-radius: 25px;
+        
+    }
+    .servicepara1{
+        font-size: 18px;
+        margin-top: -19px;
+        text-align: justify;
+    }
+    .servicepara2{
+        font-size: 18px;
+        margin-top: 11px;
+        text-align: justify;
+    }
+    .servicepara3{
+        font-size: 18px;
+        margin-top: 11px;
+        text-align: justify;
+    }
+    .servicepara4{
+        font-size: 18px;
+        margin-top: 11px;
+        text-align: center;
+    }
+    
+    .serviceline1{
+        display: flex;
+        margin-top: 46px;
+        flex-direction: column;
+    
+    }
+    .serviceline2{
+        display: flex;
+        margin-top: 15px;
+    }
+    hr{
+        width: 70%;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 6px;
+        border-color: #0d81e0;
+    }
+    .aboutuscontainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    .aboutuscolumn{
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+    .aboutpara1{
+        width: 70%;
+        margin-top: 21px;
+        text-align: justify;
+    }
+    .aboutcontainer1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .para1{
+        font-size: 18px;
+    }
+    
+    
+    .aboutusimg{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+        border-radius: 25px;
+    }
+    .vision{
+        font-weight: 900;
+        color:#84accc;
+    }
+    .mission{
+        font-weight: 900;
+        color:#84accc;
+    }
+    
+    
+    .contactcontainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .cantactheadcont{
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+    .contact{
+        background-color: #D0E4F4;
+        width: 90%;
+        line-height: 2;
+        margin-top: 21px;
+        border-radius: 24px;
+        margin-left: 30px;
+    }
+    .contacthead2{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .contactform{
+        margin-left: 30px;
+    }
+    .contactimg{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+        border-radius: 25px;
+    }
+    .inp1{
+        width: 90%;
+        border-radius: 53px;
+        border-style: none;
+    }
+    .inp2{
+        width: 90%;
+        border-radius: 53px;
+        border-style: none;
+    }
+    .inp3{
+        width: 90%;
+        height: 110px;
+        border-radius: 11px;
+        border-style: none;
+    }
+    .inp1::placeholder {
+        color: rgb(0, 0, 0);
+        font-style: bold;
+        font-size: 14px; 
+        position: relative;
+        left: 10px;
+    }
+    .inp2::placeholder {
+        color: rgb(0, 0, 0);
+        font-style: bold;
+        font-size: 14px; 
+        margin-left: 50px;
+        position: relative;
+        left: 10px;
+    }
+    .inp3::placeholder {
+        color: rgb(0, 0, 0);
+        font-style: bold;
+        font-size: 14px; 
+        margin-left: 50px;
+        position: relative;
+        left: 10px;
+    }
+    .name{
+        margin-top:40px;
+    }
+    .email{
+        margin-top:16px;
+    }
+    .message{
+        margin-top:16px;
+    }
+    .contactsendbutton{
+        background-color: #84accc;
+        width: 160px;
+        height: 45px;
+        margin-bottom: 37px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .contactsendbutton:hover{
+        background-color: rgb(80, 79, 79);
+        width: 160px;
+        height: 45px;
+        margin-bottom: 37px;
+        margin-top: 20px;
+        color:white;
+        font-weight: 700;
+    }
+    .aboutimg{
+        width:100%;
+        height:100%;
+        border-radius: 25px;
+    }
+        /* location*/
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .locationhead{
+            font-size: 35px;
+            width: 100%;
+            font-weight: 700;
+            margin-top: 97px;
+            text-align: center;
+        }
+        .ourlocationhead{
+            font-size: 35px;
+            font-weight: 700;
+            margin-top: 27px;
+        }
+
+    /* footer */
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        background-color: #24262b;
+        padding: 66px 0;
+        margin-top: 40px;
+    }
+    .footerhead{
+        color:white;
+        font-size: 29px;
+        text-align: center;
+    }
+    .footerconttext{
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    .footerhr{
+        background-color: white;
+        width: 290px;
+        margin-left: 120px;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: white;
+    }
+    .Copyright{
+        color:white;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .address{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+    .address span{
+        margin-right: 10px;
+    }
+    .mobileno{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
+    }
+    /* snow */
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000; /* Optional: for contrast */
+    }
+    
+    .snow-container {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100vh; /* Full height for the snow to rise */
+        pointer-events: none;
+    }
+    
+    .snow {
+        position: absolute;
+        bottom: 0;
+        width: 10px;
+        height: 10px;
+        background-color: gray;
+        border-radius: 50%;
+        opacity: 0;
+        animation: snow-rise 5s infinite;
+    }
+    
+    .snow:nth-child(2) {
+        left: 20%;
+        animation-delay: 1s;
+    }
+    
+    .snow:nth-child(3) {
+        left: 40%;
+        animation-delay: 2s;
+    }
+    
+    .snow:nth-child(4) {
+        left: 60%;
+        animation-delay: 3s;
+    }
+    
+    .snow:nth-child(5) {
+        left: 80%;
+        animation-delay: 4s;
+    }
+    
+    @keyframes snow-rise {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-100vh);
+            opacity: 0;
+        }
+    }
+    
+}
+@media screen and (max-width: 768px) and (min-width:550px) {
     
     body{
         width: 100%;
@@ -2319,11 +3112,12 @@
     .serviceline1{
         display: flex;
         margin-top: 46px;
+        flex-direction: column;
     
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -2346,6 +3140,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -2364,11 +3159,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -2476,6 +3271,34 @@
         height:100%;
         border-radius: 25px;
     }
+        /* location*/
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .locationhead{
+            font-size: 35px;
+            width: 100%;
+            font-weight: 700;
+            margin-top: 97px;
+            text-align: center;
+        }
+        .ourlocationhead{
+            font-size: 35px;
+            font-weight: 700;
+            margin-top: 27px;
+        }
+
     /* footer */
     body{
         line-height: 1.5;
@@ -2548,6 +3371,9 @@
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
@@ -2983,11 +3809,12 @@
     .serviceline1{
         display: flex;
         margin-top: 46px;
+        flex-direction: column;
     
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -3009,6 +3836,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -3027,11 +3855,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -3141,6 +3969,32 @@
         height:100%;
         border-radius: 25px;
     }
+ /* location*/
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .locationhead{
+            font-size: 41px;
+            width: 100%;
+            font-weight: 700;
+            margin-top: 97px;
+            text-align: center;
+        }
+        .ourlocationhead{
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 27px;
+        }
     /* footer */
     body{
         line-height: 1.5;
@@ -3213,6 +4067,9 @@
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
@@ -3649,7 +4506,7 @@
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -3673,7 +4530,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
-        text-align: center;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -3691,11 +4548,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -3823,6 +4680,9 @@
         display: flex;
         justify-content: center;
     }
+    .mobileno span{
+        margin-right: 10px;
+    }
     /* footer */
     body{
         line-height: 1.5;
@@ -3895,6 +4755,36 @@
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
+    }
+    .map-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-top:30px;
+        width: 100%;
+        
+    }
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    .locationhead{
+        width: 100%;
+        margin-top: 97px;
+        text-align: center;
+    }
+    .ourlocationhead{
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 3px;
     }
     /* snow */
     body {
@@ -4330,7 +5220,7 @@
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -4354,7 +5244,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
-        text-align: center;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -4372,11 +5262,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -4485,6 +5375,33 @@
         height:100%;
         border-radius: 25px;
     }
+        /* location*/
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .locationhead{
+            font-size: 41px;
+            width: 100%;
+            font-weight: 700;
+            margin-top: 97px;
+            text-align: center;
+        }
+        .ourlocationhead{
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 3px;
+        }
     /* footer */
     body{
         line-height: 1.5;
@@ -4557,6 +5474,9 @@
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
@@ -4992,7 +5912,7 @@
     }
     .serviceline2{
         display: flex;
-        margin-top: 46px;
+        margin-top: 15px;
     }
     hr{
         width: 70%;
@@ -5016,7 +5936,7 @@
     .aboutpara1{
         width: 70%;
         margin-top: 21px;
-        text-align: center;
+        text-align: justify;
     }
     .aboutcontainer1{
         display: flex;
@@ -5034,11 +5954,11 @@
         border-radius: 25px;
     }
     .vision{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     .mission{
-        font-weight: 700;
+        font-weight: 900;
         color:#84accc;
     }
     
@@ -5147,6 +6067,35 @@
         height:100%;
         border-radius: 25px;
     }
+        /* location*/
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .locationhe  ad{
+            font-size: 41px;
+            width: 100%;
+            font-weight: 700;
+            margin-top: 97px;
+            text-align: center;
+        }
+        .ourlocationhead{
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 3px; 
+        }
     /* footer */
     body{
         line-height: 1.5;
@@ -5219,6 +6168,9 @@
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .mobileno span{
+        margin-right: 10px;
     }
     /* snow */
     body {
