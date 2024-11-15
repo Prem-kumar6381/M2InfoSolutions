@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/",
+    "/services/accessibilityservices",
+    "/services/dataannotation",
+    "/services/e-publishing"
+  ]
+}

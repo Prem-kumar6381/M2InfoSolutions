@@ -1,0 +1,435 @@
+<!-- Navigation Bar -->
+<div class="container-fluid totalheadercont">
+  <div class="row">
+    <div class="col-12">
+      <div class="container headercont1">
+        <div class="row ">
+          <div class="col-5">
+            <div class="logocontainer">
+             <a class="nav-link" href="#homesection"><img class="logoimg"src="../assets/logo.png" alt="logo"> </a> 
+            </div>
+          </div>
+          <div class="col-7 column2">
+            <div class="navbar secondcol">
+              <div class="menu-icon" id="menu-icon">
+                <a role="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                  <span class="material-symbols-outlined menuicon">menu</span>
+                </a>
+                <div class="offcanvas offcanvas-start" id="demo">
+                  <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body navbar-nav">
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#homesection">Home</a>
+                    </div>
+                    
+                    <!-- Remove data-bs-dismiss here to prevent canvas from closing on click -->
+                    <div class="nav-item dropdown">
+                      <a class="dropdownitem nav-link" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                      <ul class="dropdown-menu servicedropdownmenu">
+                        <!-- Add data-bs-dismiss only to the links that should close the canvas -->
+                        <li><a class="dropdown-item" routerLink="/services/e-publishing" data-bs-dismiss="offcanvas">e-Publishing</a></li>
+                        <li><a class="dropdown-item" routerLink="/services/accessibilityservices" data-bs-dismiss="offcanvas">Accessibility Services</a></li>
+                        <li><a class="dropdown-item" routerLink="/services/dataannotation" data-bs-dismiss="offcanvas">Data Annotation</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#aboutsection">About Us</a>
+                    </div>
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#contactsection">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <ul class="navbar-nav navlist">
+                <li class="nav-item homelink"><a class="nav-link" href="#homesection">Home</a></li> 
+                <li class="nav-item dropdown servicelink">
+                  <a class="nav-link dropdown-toggle"data-bs-toggle="dropdown" aria-expanded="false" href="#servicesection">Services</a>
+                  <ul class="dropdown-menu servicedropdownmenu" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item" routerLink="/services/e-publishing">e-Publishing</a></li>
+                    <li><a class="dropdown-item" routerLink="/services/accessibilityservices">Accessibility Services</a></li>
+                    <li><a class="dropdown-item" routerLink="/services/dataannotation">Data Annotation</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item aboutuslink"><a class="nav-link" href="#aboutsection">About Us</a></li>
+                <li class="nav-item contactslink"><a class="nav-link" href="#contactsection">Contact Us</a></li>
+              </ul>
+              
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Annotation heading container -->
+   <div class="container-fluid annotationfircont">
+    <div class="row">
+        <div class="col-12">
+            <div class="container annotationseccont">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="annotationhead">Data Annotation & Labeling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- Accessibilty content1 -->
+    <div class="container Accessibilitycontentcontainer1">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="accessibilitytotalcont">
+                    <h3 class="accessibilityhead">Image Annotation</h3>
+                    <div class="accessibiltypara1">
+                        <p class="accessibilityparacontent1">This involves labeling objects, regions of interest, bounding boxes, or semantic segmentation masks within images. It can be used for object detection, image classification, or object tracking tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="accessibilityimgcont">
+                  <div class="accessibilityimgcontainer">
+                    <img data-aos="flip-right" data-aos-duration="700"data-aos-delay="150"class="annotationimg1"src="../../assets/imageannotation.jpg"  alt="">
+                  </div>
+                    <div data-aos="fade-down-left"class="accessibiltyimgframe1"></div>
+                    <div data-aos="fade-up-right"class="accessibiltyimgframe2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--word accessibility -->
+     <div class="container accessibilitycontentcontainer2">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="wordimgcont">
+                  <div class="wordimgcontainer">
+                    <img data-aos="flip-right" data-aos-duration="700"data-aos-delay="150"class="annotationimg1" class="wordimg"src="../../assets/textannotation.jpg" alt="">
+                  </div>
+                    <div data-aos="fade-down-left"class="wordimgframe1"></div>
+                    <div data-aos="fade-up-right"class="wordimgframe2"></div>
+                  </div>
+               
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="word">Text Annotation</h3>
+                <div class="wordtotalcontainer">
+                    <div class="wordtotalcont2">
+                        <p class="wordparacontent2">Text annotation involves labeling or categorizing text data, such as sentiment analysis, named entity recognition, or part-of-speech tagging</p>  
+                    </div>
+                </div> 
+            </div>
+        </div>
+     </div>
+     <!-- PPT accessibility -->
+      <div class="container pptcontentcontainer3">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="pptaccessibilty">Audio Annotation</h3>
+                <div class="ppttotalcont3">
+                    <p class="pptparacontent3">In audio annotation, speech or sound segments are labeled with relevant information, such as speaker identification, transcription, or emotion recognition.</p>  
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="pptimgcont">
+                      <div class="pptimgcontainer">
+                        <img data-aos="flip-up" data-aos-duration="700"data-aos-delay="150"class="pptimg"src="../../assets/audioannotation.jpg"  alt="">
+                      </div>
+                        <div data-aos="fade-down-left"class="pptimgframe1"></div>
+                        <div data-aos="fade-up-right"class="pptimgframe2"></div>
+                      </div> 
+            </div>
+        </div>
+      </div>
+     <!-- Excel accessibilty -->
+      <div class="container excelaccessibilitycontainer">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="excelimgcont">
+                <div class="excelimgcontainer">
+                  <img  data-aos="flip-right" data-aos-duration="700"data-aos-delay="150"class="annotationimg1" data-aos-duration="700"data-aos-delay="150"class="excelimg"src="../../assets/videoannotation.jpg" alt="">
+
+                </div>
+                <div data-aos="fade-down-left"class="annotationimgframe1"></div>
+                <div data-aos="fade-up-right"class="annotationimgframe2"></div>
+              </div>    
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="exceltotalcontainer">
+                    <div class="exceltotal">
+                        <h3 class="excelhead">Video Annotation</h3>
+                        <p class="excelcont">Video annotation involves labeling objects, actions, or events within videos. It can be used for activity recognition, video surveillance, or autonomous driving applications. </p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+      </div>
+      <!-- industries we serve -->
+      <div class="container industrialservedcontainer">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="servedindustriehead">Industries We Serve</h3>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <p class="industrialcontent">M2infosolutions is a data annotation service provider that offers a range of annotation services used for training machine learning and deep learning models. Their services cater to various industries such as healthcare, autonomous driving, drone flying, retail, security surveillance, and agriculture. Here are some of the annotation services provided by M2infosolutions. Annotation is widely used across various industries for a multitude of purposes. Annotation involves labeling or marking data, such as images, text, audio, or video, to create annotated datasets. These annotated datasets are then used to train and improve machine learning algorithms, particularly in supervised learning tasks. Here are some industries that extensively use annotation: Computer Vision and Image Recognition: Industries like automotive, agriculture, healthcare, retail, and security heavily rely on image annotation. Object detection, facial recognition, autonomous vehicles, and medical image analysis are some applications.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- industrialcards -->
+       <!-- card1 -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12"> 
+            <div class="card animated-card shadow-lg oddcardcontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  memory
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Natural Language Processing (NLP)</h4>
+                <!-- Definition -->
+                <p class="card-text">In industries such as chatbots, virtual assistants, sentiment analysis, and language translation, annotated text data is used to train NLP models.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card animated-card shadow-lg evencontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  medical_services
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Healthcare and Medical Research</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated medical images and patient data are used for disease diagnosis, treatment planning, and medical research. This includes radiology, pathology, and genomics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card2 -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card animated-card shadow-lg oddcardcontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  language
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">E-commerce and Retail</h4>
+                <!-- Definition -->
+                <p class="card-text">Image annotation is used for product recognition, visual search, and recommendation systems to enhance the shopping experience.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg  evencontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  agriculture
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Agriculture and Farming</h4>
+                <!-- Definition -->
+                <p class="card-text">Image annotation aids in crop monitoring, disease detection, and yield estimation using drones or satellite imagery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card3       -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg oddcardcontainer ">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  local_shipping
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Autonomous Vehicles and Transportation</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data is crucial for self-driving cars and other autonomous vehicles to understand their surroundings and make safe decisions.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card animated-card shadow-lg  evencontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  tag
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Social Media and Content Moderation</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data helps in content moderation, detecting and removing inappropriate content, hate speech, and fake news.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card4       -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg oddcardcontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  database
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Finance and Fraud Detection</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data is used to identify fraudulent transactions and activities in the financial industry.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg evencontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  stadia_controller
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Gaming and Virtual Reality</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data is used to create realistic virtual environments, character animations, and object interactions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card5 -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card animated-card shadow-lg oddcardcontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  smart_toy
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Robotics and Industrial Automation</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data is used to teach robots to perform complex tasks and navigate real-world environments safely.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg  evencontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  library_books
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Education and E-learning</h4>
+                <!-- Definition -->
+                <p class="card-text">Annotated data helps in developing personalized educational content, language learning, and intelligent tutoring systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card6 -->
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card with Animation -->
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div  class="card animated-card shadow-lg oddcardcontainer">
+              <div class="card-body text-center">
+                <!-- Logo -->
+                <span class="material-symbols-outlined cardicon">
+                  lock
+                  </span>
+                <!-- Heading -->
+                <h4 class="card-title">Security and Surveillance</h4>
+                <!-- Definition -->
+                <p class="card-text">Image and video annotation are used for facial recognition, crowd monitoring, and threat detection.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- footer container -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+         <p class="footerhead">M2 INFOSOLUTIONS</p>
+         <hr class="footerhr">
+        </div>
+        <div class="footer-col footercont">
+          <p class="footerconttext" >M2 INFOSOLUTION With a highly experienced leadership team, M2 Infosolutions work with leading publishers, typesetters, government agencies, universities, libraries and major corporations around the world on a wide range of e-publishing projects.</p>
+         </div>
+         <div class="footer-col">
+          <div class="address">
+            <span class="material-symbols-outlined">
+              location_on
+              </span><p>No.52, First Avenue Main Road,
+              Vettuvankeni,
+              Chennai 600 115.</p>
+          </div>
+          <div class="mobileno">
+            <span class="material-symbols-outlined">call</span><p>+91 7397224252/+91 9176351763</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <p class="Copyright" > © Copyright 2023 - M2 Infosolutions Private Limited - All rights reserved</p>    
+         </div>
+      </div>
+    </div>
+  </footer>
+  <!-- snoweffect -->
+  <div class="snow-container">
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+  </div>
+  

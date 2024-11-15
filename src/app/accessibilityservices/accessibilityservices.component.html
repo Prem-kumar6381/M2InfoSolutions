@@ -1,0 +1,221 @@
+<!-- Navigation Bar -->
+<div class="container-fluid totalheadercont">
+  <div class="row">
+    <div class="col-12">
+      <div class="container headercont1">
+        <div class="row ">
+          <div class="col-5">
+            <div class="logocontainer">
+             <a class="nav-link" href="#homesection"><img class="logoimg"src="../assets/logo.png" alt="logo"> </a> 
+            </div>
+          </div>
+          <div class="col-7 column2">
+            <div class="navbar secondcol">
+              <div class="menu-icon" id="menu-icon">
+                <a role="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                  <span class="material-symbols-outlined menuicon">menu</span>
+                </a>
+                <div class="offcanvas offcanvas-start" id="demo">
+                  <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body navbar-nav">
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#homesection">Home</a>
+                    </div>
+                    
+                    <!-- Remove data-bs-dismiss here to prevent canvas from closing on click -->
+                    <div class="nav-item dropdown">
+                      <a class="dropdownitem nav-link" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                      <ul class="dropdown-menu servicedropdownmenu">
+                        <!-- Add data-bs-dismiss only to the links that should close the canvas -->
+                        <li><a class="dropdown-item" routerLink="/services/e-publishing" data-bs-dismiss="offcanvas">e-Publishing</a></li>
+                        <li><a class="dropdown-item" routerLink="/services/accessibilityservices" data-bs-dismiss="offcanvas">Accessibility Services</a></li>
+                        <li><a class="dropdown-item" routerLink="/services/dataannotation" data-bs-dismiss="offcanvas">Data Annotation</a></li>
+                      </ul>
+                    </div>
+                    
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#aboutsection">About Us</a>
+                    </div>
+                    <div data-bs-dismiss="offcanvas" aria-label="Close" class="nav-item">
+                      <a class="dropdownitem nav-link" href="#contactsection">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <ul class="navbar-nav navlist">
+                <li class="nav-item homelink"><a class="nav-link" href="#homesection">Home</a></li> 
+                <li class="nav-item dropdown servicelink">
+                  <a class="nav-link dropdown-toggle"data-bs-toggle="dropdown" aria-expanded="false" href="#servicesection">Services</a>
+                  <ul class="dropdown-menu servicedropdownmenu" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item" routerLink="/services/e-publishing">e-Publishing</a></li>
+                    <li><a class="dropdown-item" routerLink="/services/accessibilityservices">Accessibility Services</a></li>
+                    <li><a class="dropdown-item" routerLink="/services/dataannotation">Data Annotation</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item aboutuslink"><a class="nav-link" href="#aboutsection">About Us</a></li>
+                <li class="nav-item contactslink"><a class="nav-link" href="#contactsection">Contact Us</a></li>
+              </ul>
+              
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Accessibility heading container -->
+   <div class="container-fluid accessibilityfircont">
+    <div class="row">
+        <div class="col12">
+            <div class="container accessibiltyseccont">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="accessibilityhead">Accessibility Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- Accessibilty content1 -->
+    <div class="container Accessibilitycontentcontainer1">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="accessibilitytotalcont">
+                    <h3 class="accessibilityhead2">PDF Accessibility</h3>
+                    <div class="accessibiltypara1">
+                        <p class="accessibilityparacontent1">PDFs are commonly used for sharing and presenting documents, and it's important to make sure that these documents can be effectively navigated, read, and understood by people with a variety of disabilities, including visual, auditory, and motor impairments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="accessibilityimgcont">
+                  <div class="accessibilityimgcontainer">
+                    <img data-aos="flip-right" data-aos-duration="700"data-aos-delay="150"class="accessibilityimg1"src="../../assets/pdfaccessibility.png"  alt="">
+                  </div>
+                    <div data-aos="fade-down-left"class="accessibilityimg1frame1"></div>
+                    <div data-aos="fade-up-right"class="accessibilityimg1frame2"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--word accessibility -->
+     <div class="container accessibilitycontentcontainer2">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="wordimgcont">
+                  <div class="wordimgcontainer">
+                    <img data-aos="zoom-in" class="wordimg"src="../../assets/wordaccessibilty.png" alt="">
+                  </div>
+                  <div data-aos="fade-down-left"class="wordimgframe1"></div>
+                  <div data-aos="fade-up-right"class="wordimgframe2"></div>
+                </div>
+               
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="word">Word Accessibility</h3>
+                <div class="wordtotalcontainer">
+                    <div class="wordtotalcont2">
+                        <p class="wordparacontent2">Word accessibility services pertain to techniques, practices, and tools used to ensure that Microsoft Word documents are accessible to individuals with disabilities.</p>  
+                    </div>
+                </div> 
+            </div>
+        </div>
+     </div>
+     <!-- PPT accessibility -->
+      <div class="container pptcontentcontainer3">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3 class="pptaccessibilty">PPT Accessibility</h3>
+                <div class="ppttotalcont3">
+                    <p class="pptparacontent3">PPT accessibility refers to the process of creating presentations in Microsoft PPT that are accessible to individuals with disabilities. Creating accessible PPT presentations ensures that all users, including those with visual, auditory, and motor impairments, can effectively engage with the content.</p>  
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="pptimgcont">
+                      <div class="pptimgcontainer"> 
+                        <img data-aos="flip-up" data-aos-duration="700"data-aos-delay="150"class="pptimg"src="../../assets/pptaccessibilty.png"  alt="">
+                      </div>
+                        <div data-aos="fade-down-left"class="pptimgframe1"></div>
+                        <div data-aos="fade-up-right"class="pptimgframe2"></div>
+                      </div> 
+            </div>
+        </div>
+      </div>
+     <!-- Excel accessibilty -->
+      <div class="container excelaccessibilitycontainer">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="excelimgcont">
+                <div class="excelimgcontainer">
+                  <img  data-aos="zoom-out-right" data-aos-duration="700"data-aos-delay="150"class="excelimg"src="../../assets/excelaccessibility.png" alt="">
+                </div>
+                <div data-aos="fade-down-left"class="excelimgframe1"></div>
+                <div data-aos="fade-up-right"class="excelimgframe2"></div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="exceltotalcontainer">
+                    <div class="exceltotal">
+                        <h3 class="excelhead">Excel Accessibility</h3>
+                        <p class="excelcont">Excel accessibility involves creating spreadsheets in Microsoft Excel that can be effectively navigated and understood by individuals with disabilities. Accessibility in Excel is crucial to ensure that users with visual, auditory, and motor impairments can access and interact with spreadsheet content
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+      </div>
+  <!-- footer container -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+         <p class="footerhead">M2 INFOSOLUTIONS</p>
+         <hr class="footerhr">
+        </div>
+        <div class="footer-col footercont">
+          <p class="footerconttext" >M2 INFOSOLUTION With a highly experienced leadership team, M2 Infosolutions work with leading publishers, typesetters, government agencies, universities, libraries and major corporations around the world on a wide range of e-publishing projects.</p>
+         </div>
+         <div class="footer-col">
+          <div class="address">
+            <span class="material-symbols-outlined">
+              location_on
+              </span><p>No.52, First Avenue Main Road,
+              Vettuvankeni,
+              Chennai 600 115.</p>
+          </div>
+          <div class="mobileno">
+            <span class="material-symbols-outlined">call</span><p>+91 7397224252/+91 9176351763</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <p class="Copyright" > © Copyright 2023 - M2 Infosolutions Private Limited - All rights reserved</p>    
+         </div>
+      </div>
+    </div>
+  </footer>
+  <!-- snoweffect -->
+  <div class="snow-container">
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+  </div>
+  
