@@ -1,6 +1,23 @@
+
+.totalheadercont{
+  background-color: #03243F;
+}
+
+.navbar-nav .nav-link{
+  color: #B0F7F5;
+}
+.navbar-nav .nav-link.active{
+  color: #ffffff;
+  
+}
+.dropdown-item:active{
+  background-color: #03243F;
+  color: #B0F7F5;
+}
+
 @media screen and (min-width: 1400px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
         top: 0;
@@ -12,9 +29,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -46,7 +63,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -55,7 +72,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -68,7 +85,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -77,7 +94,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -87,7 +104,7 @@
     }
       /*Annotation heading container*/
       .annotationfircont{
-        background-color: #24262b;
+        background-color: #B0F7F5;
       }
       .annotationseccont{
         display: flex;
@@ -97,7 +114,7 @@
       .annotationhead{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         padding: 60px;
         font-weight: 750;
         text-align: center;
@@ -151,7 +168,7 @@
       .accessibilityhead{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         font-weight: 750;
       }
       /* word accessibility */
@@ -161,7 +178,7 @@
       .word{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         font-weight: 750;
         margin-left: 134px;
       }
@@ -225,7 +242,7 @@
       .pptaccessibilty{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         font-weight: 750;
       }
       .pptparacontent3{
@@ -317,7 +334,7 @@
       .excelhead{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         font-weight: 750;
       }
       .excelcont{
@@ -340,7 +357,7 @@
       .servedindustriehead{
         margin-bottom: 30px;
         font-size: 36px;
-        color: deepskyblue;
+    color: #03243F;
         font-weight: 750;
         text-align: center;
       }
@@ -361,11 +378,11 @@
       }
       .cardicon{
         font-size: 45px;
-        color: #007bff;
+        color: #03243F;
       }
       .card-title {
         font-size: 1.5rem;
-        color: #007bff;
+        color: #03243F;
       }
       .card-text {
         font-size: 1rem;
@@ -384,7 +401,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+      background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -484,7 +501,7 @@
 }
 @media screen and (max-width: 1399px) and (min-width:1250px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -493,9 +510,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -527,7 +544,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -536,7 +553,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -549,7 +566,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -558,7 +575,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -568,7 +585,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+            background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -578,7 +595,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -633,7 +650,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           /* word accessibility */
@@ -643,7 +660,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-left: 134px;
           }
@@ -706,7 +723,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .pptparacontent3{
@@ -798,7 +815,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .excelcont{
@@ -820,7 +837,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -841,11 +858,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -864,7 +881,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -964,7 +981,7 @@
 }
 @media screen and (max-width: 1249px) and (min-width:1000px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -973,9 +990,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1007,7 +1024,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1016,7 +1033,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1029,7 +1046,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1038,7 +1055,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1048,7 +1065,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -1058,7 +1075,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -1114,7 +1131,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           /* word accessibility */
@@ -1124,7 +1141,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-left: 134px;
           }
@@ -1187,7 +1204,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .pptparacontent3{
@@ -1279,7 +1296,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .excelcont{
@@ -1301,7 +1318,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -1322,11 +1339,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -1345,7 +1362,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -1445,7 +1462,7 @@
 }  
 @media screen and (max-width: 999px) and (min-width:768px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -1454,9 +1471,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1497,7 +1514,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1506,7 +1523,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1519,7 +1536,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1528,7 +1545,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1538,7 +1555,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -1548,7 +1565,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -1603,7 +1620,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           /* word accessibility */
@@ -1613,7 +1630,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-left: 62px;
           }
@@ -1676,7 +1693,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .pptparacontent3{
@@ -1768,7 +1785,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
           }
           .excelcont{
@@ -1790,7 +1807,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -1811,11 +1828,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -1834,7 +1851,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -1937,7 +1954,7 @@
 }
 @media screen and (max-width: 767px) and (min-width:550px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+        
         position: fixed;
         z-index: 1001;
     }
@@ -1946,9 +1963,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1989,7 +2006,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1998,7 +2015,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2011,7 +2028,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2020,7 +2037,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2030,7 +2047,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -2040,7 +2057,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -2077,7 +2094,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2088,7 +2105,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -2133,7 +2150,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2182,7 +2199,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -2212,7 +2229,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2237,11 +2254,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -2260,7 +2277,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -2363,7 +2380,7 @@
 }
 @media screen and (max-width: 549px) and (min-width:459px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -2372,9 +2389,9 @@
         height: 80px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -2418,7 +2435,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2427,7 +2444,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2440,7 +2457,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2449,7 +2466,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2459,7 +2476,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -2469,7 +2486,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -2505,7 +2522,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2516,7 +2533,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -2561,7 +2578,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2610,7 +2627,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -2638,7 +2655,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2664,11 +2681,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -2687,7 +2704,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -2790,7 +2807,7 @@
 }
 @media screen and (max-width: 458px) and (min-width:411px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -2799,9 +2816,9 @@
         height: 68px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -2842,7 +2859,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2851,7 +2868,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2864,7 +2881,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2873,7 +2890,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2883,7 +2900,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -2893,7 +2910,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -2929,7 +2946,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -2940,7 +2957,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -2985,7 +3002,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3034,7 +3051,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-top: 50px;
             text-align: center;
@@ -3064,7 +3081,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3089,11 +3106,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -3112,7 +3129,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -3242,7 +3259,7 @@
 }
 @media screen and (max-width: 410px) and (min-width:350px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+        
         position: fixed;
         z-index: 1001;
     }
@@ -3251,9 +3268,9 @@
         height: 68px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -3294,7 +3311,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3303,7 +3320,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3316,7 +3333,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3325,7 +3342,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3335,7 +3352,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -3345,7 +3362,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -3381,7 +3398,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3392,7 +3409,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -3437,7 +3454,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3486,7 +3503,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-top: 50px;
             text-align: center;
@@ -3517,7 +3534,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3542,11 +3559,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -3565,7 +3582,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -3668,7 +3685,7 @@
 }
 @media screen and (max-width: 349px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -3677,9 +3694,9 @@
         height: 68px;
     }
     .logoimg{
-      width: 60%;
+      width: 27%;
       height: 60%;
-      margin-top: 16px;
+      margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -3720,7 +3737,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3729,7 +3746,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3742,7 +3759,7 @@
       line-height: 42px;
   }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3751,7 +3768,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3761,7 +3778,7 @@
     }
          /*Annotation heading container*/
          .annotationfircont{
-            background-color: #24262b;
+          background-color: #B0F7F5;
           }
           .annotationseccont{
             display: flex;
@@ -3771,7 +3788,7 @@
           .annotationhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             padding: 60px;
             font-weight: 750;
             text-align: center;
@@ -3811,7 +3828,7 @@
           .accessibilityhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3822,7 +3839,7 @@
           .word{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
             margin-top: 50px;
@@ -3868,7 +3885,7 @@
           .pptaccessibilty{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3917,7 +3934,7 @@
           .excelhead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             margin-top: 50px;
             text-align: center;
@@ -3947,7 +3964,7 @@
           .servedindustriehead{
             margin-bottom: 30px;
             font-size: 36px;
-            color: deepskyblue;
+        color: #03243F;
             font-weight: 750;
             text-align: center;
           }
@@ -3972,11 +3989,11 @@
           }
           .cardicon{
             font-size: 45px;
-            color: #007bff;
+            color: #03243F;
           }
           .card-title {
             font-size: 1.5rem;
-            color: #007bff;
+            color: #03243F;
           }
           .card-text {
             font-size: 1rem;
@@ -3995,7 +4012,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+            background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }

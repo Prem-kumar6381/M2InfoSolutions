@@ -1,6 +1,23 @@
+.totalheadercont{
+    background-color: #03243F;
+}
+
+.navbar-nav .nav-link{
+    color: #B0F7F5;
+}
+.navbar-nav .nav-link.active{
+    color: #ffffff;
+    
+}
+
+.dropdown-item:active{
+    background-color: #03243F;
+    color: #B0F7F5;
+}
+
 @media screen and (min-width: 1400px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
         top: 0;
@@ -12,9 +29,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -46,7 +63,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -55,7 +72,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -68,7 +85,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -77,7 +94,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -87,7 +104,7 @@
     }
    /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -97,7 +114,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+    color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -152,7 +169,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -164,7 +181,7 @@
     margin-bottom: 30px;
     font-size: 36px;
     margin-left: 149px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .levelofeditingimg{
@@ -231,7 +248,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .epublishparacontent3{
@@ -289,7 +306,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -357,7 +374,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .digitalpublishingcont{
@@ -421,7 +438,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .conversationcont{
@@ -490,7 +507,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -504,7 +521,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+       background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -604,7 +621,7 @@
 }
 @media screen and (max-width: 1399px) and (min-width:1250px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -613,9 +630,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -647,7 +664,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -656,7 +673,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -665,7 +682,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -678,7 +695,7 @@
         line-height: 42px;
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -688,7 +705,7 @@
     }
   /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -698,7 +715,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -748,7 +765,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -760,7 +777,7 @@
     margin-bottom: 30px;
     font-size: 36px;
     margin-left: 149px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .levelofeditingimg{
@@ -826,7 +843,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .epublishparacontent3{
@@ -884,7 +901,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -952,7 +969,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .digitalpublishingcont{
@@ -1017,7 +1034,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .conversationcont{
@@ -1086,7 +1103,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -1100,7 +1117,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -1200,7 +1217,7 @@
 }
 @media screen and (max-width: 1249px) and (min-width:1200px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -1209,9 +1226,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1243,7 +1260,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1252,7 +1269,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1265,7 +1282,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1274,7 +1291,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1284,7 +1301,7 @@
     }
  /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -1294,7 +1311,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -1343,7 +1360,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -1355,7 +1372,7 @@
     margin-bottom: 30px;
     font-size: 36px;
     margin-left: 149px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .levelofeditingimg{
@@ -1421,7 +1438,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .epublishparacontent3{
@@ -1479,7 +1496,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -1547,7 +1564,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .digitalpublishingcont{
@@ -1612,7 +1629,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .conversationcont{
@@ -1681,7 +1698,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -1695,7 +1712,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -1795,7 +1812,7 @@
 }  
 @media screen and (max-width: 1199px) and (min-width:1000px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -1804,9 +1821,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1838,7 +1855,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1847,7 +1864,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1856,7 +1873,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1869,7 +1886,7 @@
         line-height: 42px;
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1879,7 +1896,7 @@
     }
  /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -1889,7 +1906,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -1938,7 +1955,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -1950,7 +1967,7 @@
     margin-bottom: 30px;
     font-size: 36px;
     margin-left: 149px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .levelofeditingimg{
@@ -2016,7 +2033,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .epublishparacontent3{
@@ -2074,7 +2091,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -2142,7 +2159,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .digitalpublishingcont{
@@ -2207,7 +2224,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .conversationcont{
@@ -2276,7 +2293,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -2290,7 +2307,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -2390,7 +2407,8 @@
 }  
 @media screen and (max-width: 999px) and (min-width:992px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
+
         position: fixed;
         z-index: 1001;
     }
@@ -2399,9 +2417,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -2442,7 +2460,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2451,7 +2469,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2464,7 +2482,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2473,7 +2491,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2483,7 +2501,7 @@
     }
  /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -2493,7 +2511,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -2543,7 +2561,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -2555,7 +2573,7 @@
     margin-bottom: 30px;
     font-size: 36px;
     margin-left: 149px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .levelofeditingimg{
@@ -2617,7 +2635,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .epublishparacontent3{
@@ -2675,7 +2693,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -2743,7 +2761,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .digitalpublishingcont{
@@ -2808,7 +2826,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 .conversationcont{
@@ -2877,7 +2895,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
 }
 
@@ -2891,7 +2909,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -2994,7 +3012,7 @@
 }
 @media screen and (max-width: 991px) and (min-width:768px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -3003,9 +3021,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -3046,7 +3064,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3055,7 +3073,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3068,7 +3086,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3077,7 +3095,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3087,7 +3105,7 @@
     }
  /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -3097,7 +3115,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -3130,7 +3148,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3142,7 +3160,7 @@
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 40px;
@@ -3191,7 +3209,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3232,7 +3250,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -3277,7 +3295,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -3334,7 +3352,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3395,7 +3413,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3410,7 +3428,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -3513,7 +3531,7 @@
 }
 @media screen and (max-width: 767px) and (min-width:550px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -3522,9 +3540,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -3565,7 +3583,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3574,7 +3592,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3587,7 +3605,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3596,7 +3614,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3606,7 +3624,7 @@
     }
 /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -3616,7 +3634,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -3647,7 +3665,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3662,7 +3680,7 @@
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 40px;
@@ -3711,7 +3729,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3752,7 +3770,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -9px 13px 13px 6px #5baabf;
     
 }
@@ -3797,7 +3815,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -3855,7 +3873,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -3917,7 +3935,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 30px;
@@ -3934,7 +3952,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -4037,7 +4055,7 @@
 }
 @media screen and (max-width: 549px) and (min-width:459px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -4046,9 +4064,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -4092,7 +4110,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4101,7 +4119,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4114,7 +4132,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4123,7 +4141,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4133,7 +4151,7 @@
     }
  /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -4143,7 +4161,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -4177,7 +4195,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4189,7 +4207,7 @@
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     margin-top: 40px;
     text-align: center;
@@ -4238,7 +4256,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4279,7 +4297,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -1px 13px 13px -4px #5baabf;
     
 }
@@ -4324,7 +4342,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -4381,7 +4399,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4442,7 +4460,7 @@
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 30px;
@@ -4458,7 +4476,7 @@
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -4561,7 +4579,7 @@
 }
 @media screen and (max-width: 458px) and (min-width:411px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -4570,9 +4588,9 @@
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -4613,7 +4631,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4622,7 +4640,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4635,7 +4653,7 @@
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4644,7 +4662,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4654,7 +4672,7 @@
     }
     /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -4664,7 +4682,7 @@
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -4698,7 +4716,7 @@
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4710,7 +4728,7 @@
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 40px;
@@ -4760,7 +4778,7 @@
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4801,7 +4819,7 @@
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -1px 13px 13px -4px #5baabf;
     
 }
@@ -4846,7 +4864,7 @@
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -4904,7 +4922,7 @@
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -4966,7 +4984,7 @@ max-width: 93%;
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 30px;
@@ -4982,7 +5000,7 @@ max-width: 93%;
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -5112,7 +5130,7 @@ max-width: 93%;
 }
 @media screen and (max-width: 410px) and (min-width:350px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -5121,9 +5139,9 @@ max-width: 93%;
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -5164,7 +5182,7 @@ max-width: 93%;
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5173,7 +5191,7 @@ max-width: 93%;
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5182,7 +5200,7 @@ max-width: 93%;
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5195,7 +5213,7 @@ max-width: 93%;
         line-height: 42px;
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5205,7 +5223,7 @@ max-width: 93%;
     }
     /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -5215,7 +5233,7 @@ max-width: 93%;
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -5250,7 +5268,7 @@ max-width: 93%;
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -5262,7 +5280,7 @@ max-width: 93%;
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 40px;
@@ -5312,7 +5330,7 @@ max-width: 93%;
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -5353,7 +5371,7 @@ max-width: 93%;
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -1px 13px 13px -4px #5baabf;
     
 }
@@ -5398,7 +5416,7 @@ max-width: 93%;
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -5455,7 +5473,7 @@ max-width: 93%;
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -5515,7 +5533,7 @@ max-width: 93%;
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 30px;
@@ -5531,7 +5549,7 @@ max-width: 93%;
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color:#03243F;
             padding: 66px 0;
             margin-top: 40px;
         }
@@ -5634,7 +5652,7 @@ max-width: 93%;
 }
 @media screen and (max-width: 349px){
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -5643,9 +5661,9 @@ max-width: 93%;
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -5686,7 +5704,7 @@ max-width: 93%;
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5695,7 +5713,7 @@ max-width: 93%;
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5708,7 +5726,7 @@ max-width: 93%;
         line-height: 42px;
     }
     .aboutuslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5717,7 +5735,7 @@ max-width: 93%;
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+       color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5727,7 +5745,7 @@ max-width: 93%;
     }
     /* epublishing head container */
 .epublishingfircont{
-    background-color: #24262b;
+   background-color: #B0F7F5;
 }
 .epublishingseccont{
     display: flex;
@@ -5737,7 +5755,7 @@ max-width: 93%;
 .epublishinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     padding: 60px;
     font-weight: 750;
     text-align: center;
@@ -5772,7 +5790,7 @@ max-width: 93%;
 .typesettinghead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -5784,7 +5802,7 @@ max-width: 93%;
 .levelofediting{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 40px;
@@ -5834,7 +5852,7 @@ max-width: 93%;
 .compositionservices{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -5875,7 +5893,7 @@ max-width: 93%;
     justify-content: center;
 }
 .accordioncontainer{
-    background-color: #24262b;
+   background-color: #B0F7F5;
     box-shadow: -1px 13px 13px -4px #5baabf;
     
 }
@@ -5924,7 +5942,7 @@ max-width: 93%;
 .Digitalpublishhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top:40px;
@@ -5978,7 +5996,7 @@ max-width: 93%;
 .conversationhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
 }
@@ -6042,7 +6060,7 @@ max-width: 93%;
 .ebookhead{
     margin-bottom: 30px;
     font-size: 36px;
-    color: deepskyblue;
+color: #03243F;
     font-weight: 750;
     text-align: center;
     margin-top: 30px;
@@ -6058,7 +6076,7 @@ max-width: 93%;
             flex-wrap: wrap;
         }
         .footer{
-            background-color: #24262b;
+           background-color: #03243F;
             padding: 66px 0;
             margin-top: 40px;
         }

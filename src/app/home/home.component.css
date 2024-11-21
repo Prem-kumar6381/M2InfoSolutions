@@ -1,3 +1,29 @@
+.dropdown-item:active{
+    background-color: #03243F;
+    color: #B0F7F5;
+}
+
+
+.totalheadercont {
+    background-color:#03243F;
+}
+
+.navbar-nav .nav-link{
+    color: #B0F7F5;
+}
+.navbar-nav .nav-link.active{
+    color: #ffffff;
+    
+}
+
+.border-primary {
+    border-color: #03243F !important;
+}
+
+.rt{
+    color: #03243F !important;
+    font-weight: 700;
+}
 @media screen and (min-width: 1400px) {
 
     body{
@@ -11,7 +37,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -20,9 +46,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -49,7 +75,7 @@
     }
     
     .homelink, .servicelink, .aboutuslink, .contactslink {
-        color: #000000;
+        color: #B0F7F5;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -58,7 +84,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color:#ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -67,7 +93,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -76,7 +102,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -85,7 +111,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -118,10 +144,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -149,15 +175,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-        background-color: rgb(80, 79, 79);
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -175,6 +202,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 20px;
@@ -198,19 +226,20 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     
+        box-shadow: 2px 10px 20px #03243f;
         width: 100%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 100%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 100%;
         height: 250px;
     }
@@ -324,8 +353,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -336,6 +365,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -392,6 +422,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -415,11 +446,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -435,9 +466,11 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+        background-color: #B0F7F5;
+     box-shadow: 2px 10px 20px #03243f;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -506,20 +539,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -554,6 +588,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-left: 79px;
+        color: #03243f;
     }
     
     /* footer */
@@ -566,7 +601,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -702,7 +737,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -711,9 +746,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -749,7 +784,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -758,7 +793,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -767,7 +802,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -776,7 +811,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -809,10 +844,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -840,16 +875,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -867,6 +902,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 20px;
@@ -890,19 +926,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
@@ -993,6 +1029,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .serviceimgcont {
         width: 100%; 
@@ -1028,8 +1065,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -1081,6 +1118,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -1104,11 +1142,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -1124,9 +1162,11 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -1195,20 +1235,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -1243,6 +1284,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     /* footer */
     body{
@@ -1254,7 +1296,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -1390,7 +1432,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -1399,9 +1441,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -1437,7 +1479,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1446,7 +1488,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1455,7 +1497,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1464,7 +1506,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -1497,10 +1539,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -1528,17 +1570,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -1556,6 +1597,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 20px;
@@ -1579,19 +1621,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
@@ -1682,6 +1724,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -1734,8 +1777,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -1786,6 +1829,7 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -1809,11 +1853,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -1829,9 +1873,11 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -1900,20 +1946,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -1947,6 +1994,7 @@
         font-size: 41px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     /* footer */
     body{
@@ -1958,7 +2006,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -2096,7 +2144,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -2105,9 +2153,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -2152,7 +2200,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2161,7 +2209,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2170,7 +2218,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2179,7 +2227,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2212,10 +2260,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -2243,17 +2291,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -2271,6 +2318,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 18px;
@@ -2294,19 +2342,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
@@ -2395,6 +2443,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -2434,8 +2483,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -2488,6 +2537,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 70px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -2512,11 +2562,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -2530,9 +2580,11 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 80px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -2602,20 +2654,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -2649,6 +2702,7 @@
             font-size: 35px;
             font-weight: 700;
             margin-top: 27px;
+            color: #03243f;
         }
 
     /* footer */
@@ -2661,7 +2715,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -2801,7 +2855,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -2810,9 +2864,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -2853,7 +2907,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2862,7 +2916,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2871,7 +2925,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2880,7 +2934,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -2913,10 +2967,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -2944,17 +2998,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -2972,6 +3025,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 18px;
@@ -2995,19 +3049,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
@@ -3096,6 +3150,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -3135,8 +3190,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -3189,6 +3244,7 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 70px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -3213,11 +3269,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -3231,9 +3287,11 @@
         font-size: 35px;
         font-weight: 700;
         margin-top: 80px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -3303,20 +3361,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -3350,6 +3409,7 @@
             font-size: 35px;
             font-weight: 700;
             margin-top: 27px;
+            color: #03243f;
         }
 
     /* footer */
@@ -3362,7 +3422,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -3502,7 +3562,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -3511,9 +3571,9 @@
         height: 80px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -3557,7 +3617,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3566,7 +3626,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+        color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3575,7 +3635,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3584,7 +3644,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -3617,10 +3677,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -3648,17 +3708,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -3676,6 +3735,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 27px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 20px;
@@ -3699,19 +3759,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 92%;
         height: 250px;
     }
@@ -3802,6 +3862,7 @@
         font-weight: 700;
         margin-left: 180px;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -3841,8 +3902,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -3894,6 +3955,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 90px;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -3918,11 +3980,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -3938,9 +4000,11 @@
         font-weight: 700;
         margin-top: 97px;
         margin-left: 180px;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 90%;
         line-height: 2;
         margin-top: 21px;
@@ -4010,20 +4074,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -4056,6 +4121,7 @@
             font-size: 28px;
             font-weight: 700;
             margin-top: 27px;
+            color: #03243f;
         }
     /* footer */
     body{
@@ -4067,7 +4133,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -4206,7 +4272,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+      
         position: fixed;
         z-index: 1001;
     }
@@ -4215,9 +4281,9 @@
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -4258,7 +4324,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4267,7 +4333,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4276,7 +4342,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4285,7 +4351,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4318,10 +4384,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -4349,17 +4415,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -4377,6 +4442,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 3px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 15px;
@@ -4397,19 +4463,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
@@ -4500,6 +4566,7 @@
         font-weight: 700;
         text-align: center;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -4539,8 +4606,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -4595,6 +4662,7 @@
         font-weight: 700;
         margin-top: 55px;
         text-align: center;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -4618,11 +4686,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -4638,6 +4706,7 @@
         font-weight: 700;
         margin-top: 97px;
         text-align: center;
+        color: #03243f;
     }
     .contact{
         width: 100%;
@@ -4650,7 +4719,7 @@
     }
     .contactform{
         margin-left: 30px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         line-height: 2;
         margin-top: 21px;
         border-radius: 24px;
@@ -4713,20 +4782,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -4762,7 +4832,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -4854,6 +4924,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 3px;
+        color: #03243f;
     }
     /* snow */
     body {
@@ -4928,7 +4999,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -4937,9 +5008,9 @@
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -4980,7 +5051,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4989,7 +5060,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -4998,7 +5069,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5007,7 +5078,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5040,10 +5111,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -5071,17 +5142,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -5099,6 +5169,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 3px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 15px;
@@ -5119,19 +5190,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
@@ -5222,6 +5293,7 @@
         font-weight: 700;
         text-align: center;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -5261,8 +5333,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -5317,6 +5389,7 @@
         font-weight: 700;
         margin-top: 55px;
         text-align: center;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -5340,11 +5413,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -5360,9 +5433,11 @@
         font-weight: 700;
         margin-top: 97px;
         text-align: center;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 100%;
         line-height: 2;
         margin-top: 21px;
@@ -5431,20 +5506,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -5478,6 +5554,7 @@
             font-size: 28px;
             font-weight: 700;
             margin-top: 3px;
+            color: #03243f;
         }
     /* footer */
     body{
@@ -5489,7 +5566,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
@@ -5628,7 +5705,7 @@
             width: 100%;
         }
     .totalheadercont {
-        background-color: rgb(255, 255, 255);
+       
         position: fixed;
         z-index: 1001;
     }
@@ -5637,9 +5714,9 @@
         height: 68px;
     }
     .logoimg{
-        width: 60%;
+        width: 27%;
         height: 60%;
-        margin-top: 16px;
+        margin-top: 9px;
     }
     .secondcol {
         display: flex;
@@ -5680,7 +5757,7 @@
         text-decoration: none; 
     }
     .homelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5689,7 +5766,7 @@
         text-decoration:underline; 
     }
     .servicelink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5698,7 +5775,7 @@
         text-decoration:underline; 
     }
     .aboutuslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5707,7 +5784,7 @@
         text-decoration:underline; 
     }
     .contactslink:hover{
-        color: #1773c9;
+         color: #ffffff;
         font-family: 'DM Sans', sans-serif;
         font-size: 20px;
         font-weight: 600;
@@ -5740,10 +5817,10 @@
         position: absolute;
         width: 70%;
         margin-top: -460px;
-        color: white; 
+        color: #B0F7F5;
         text-align: center;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #03243f9e;
         border-radius: 10px;
         z-index: 1;
     }
@@ -5771,17 +5848,16 @@
         font-weight: 700;
     }
     .contactbtn a{
-        color: black;
+        color: #03243F;
         text-decoration: none;
     }
     .contactbtn a:hover{
-        color: white;
+        color: #B0F7F5;
+       
         text-decoration: none;
     }
     .contactbtn:hover {
-
-        background-color: rgb(80, 79, 79);
-        
+     box-shadow: 2px 10px 20px #03243f;
         font-weight: 700;
     }
     .whychoosecont{
@@ -5799,6 +5875,7 @@
         font-size: 28px;
         font-weight: 700;
         margin-top: 3px;
+        color: #03243f;
     }
     .whychooseushead2{
         font-size: 15px;
@@ -5819,19 +5896,19 @@
     }
     .card1{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card2{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
     .card3{
         border-radius: 45px;
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
         width: 79%;
         height: 243px;
     }
@@ -5922,6 +5999,7 @@
         font-weight: 700;
         text-align: center;
         margin-top: 80px;
+        color: #03243f;
     }
     .serviceimgcont {
         position: relative;
@@ -5961,8 +6039,8 @@
         justify-content: center;
      }
      .card-hover-effect:hover{
-        background-color:#94c8f8;
-        color: white;
+        background-color: #B0F7F5;
+        color: #03243f;
      }
      .card-hover-effect:hover a:hover{
         color: white;
@@ -6017,6 +6095,7 @@
         font-weight: 700;
         margin-top: 55px;
         text-align: center;
+        color: #03243f;
     }
     .aboutpara1{
         width: 70%;
@@ -6040,11 +6119,11 @@
     }
     .vision{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     .mission{
         font-weight: 900;
-        color:#84accc;
+        color: #03243f;
     }
     
     
@@ -6060,9 +6139,11 @@
         font-weight: 700;
         margin-top: 97px;
         text-align: center;
+        color: #03243f;
     }
     .contact{
-        background-color: #D0E4F4;
+     box-shadow: 2px 10px 20px #03243f;
+     background-color: #B0F7F5;
         width: 100%;
         line-height: 2;
         margin-top: 21px;
@@ -6131,20 +6212,21 @@
         margin-top:16px;
     }
     .contactsendbutton{
-        background-color: #84accc;
+        background-color: #ffffff;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
         font-weight: 700;
+        color: #03243f;
     }
     .contactsendbutton:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #03243F;
         width: 160px;
         height: 45px;
         margin-bottom: 37px;
         margin-top: 20px;
-        color:white;
+        color:#B0F7F5;
         font-weight: 700;
     }
     .aboutimg{
@@ -6180,6 +6262,7 @@
             font-size: 28px;
             font-weight: 700;
             margin-top: 3px; 
+            color: #03243f;
         }
     /* footer */
     body{
@@ -6191,7 +6274,7 @@
         flex-wrap: wrap;
     }
     .footer{
-        background-color: #24262b;
+        background-color: #03243F;
         padding: 66px 0;
         margin-top: 40px;
     }
